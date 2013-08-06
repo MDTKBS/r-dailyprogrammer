@@ -1,4 +1,4 @@
 r-dailyprogrammer
 =================
 
-Submissions to r/dlailyprogramming challenges
+Submissions to r/dailyprogramming challenges
