@@ -38,9 +38,7 @@ int main(int argc, char* argv[])
 		return -1;
 	}
 
-	unsigned int result = 0;
-
 	//finding largest n-digit integer that is divisible by m
-	std::cout << upperLimit - (upperLimit % m);
+	std::cout << upperLimit - (upperLimit % m) << std::endl;
 	return 0;
 }
