@@ -1,5 +1,15 @@
 #include <iostream>
 #include <cstdlib>
+
+/*
+TODO:
+1. Change initialization of expression into a function.
+2. Add loop for program to continue until user enters "quit".
+3. Add loop for program to generate new expression if user answers correctly.
+4. Add loop to print out same expression if user is incorrect.
+*/
+
+
  
 int generateNumbers(int low, int high)
 {
