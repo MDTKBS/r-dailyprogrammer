@@ -1,11 +1,21 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
+/*
+
+Unix , the famous multitasking and multi-user operating system, has several standards that defines Unix commands, system calls, subroutines, files, etc. Specifically within Version 7 (though this is included in many other Unix standards), there is a game called "arithmetic". To quote the Man Page[4] :
+Arithmetic types out simple arithmetic problems, and waits for an answer to be typed in. If the answer
+is correct, it types back "Right!", and a new problem. If the answer is wrong, it replies "What?", and
+waits for another answer. Every twenty problems, it publishes statistics on correctness and the time
+required to answer.
+Your goal is to implement this game, with some slight changes, to make this an [Easy]-level challenge. You will only have to use three arithmetic operators (addition, subtraction, multiplication) with four integers. An example equation you are to generate is "2 x 4 + 2 - 5".
+*/
 
 /*
 TODO:
 Add way to evaluate expression w/o Shunting yard and postfix
-Figure out while loop for user input
+Add statistics on user input
+Add while loop
 Fuck this is harder than I thought it would be
 */
 
