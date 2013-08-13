@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-#include <time.h>
 #include <string>
 
 /*
@@ -86,7 +85,5 @@ int main()
     {
         std::cout << "Try Again!" << std::endl;
     }   
-    }
-    
     return 0;
 }
