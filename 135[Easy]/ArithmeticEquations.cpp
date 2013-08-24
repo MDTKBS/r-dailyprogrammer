@@ -15,7 +15,13 @@ required to answer.
 Your goal is to implement this game, with some slight changes, to make this an [Easy]-level challenge. 
 You will only have to use three arithmetic operators (addition, subtraction, multiplication) with four 
 integers. An example equation you are to generate is "2 x 4 + 2 - 5".
+
+Input Description
+The first line of input will always be two integers representing an inclusive range of integers you are to pick from when filling out the constants of your equation. After that, you are to print off a single equation and wait for the user to respond. The user may either try to solve the equation by writing the integer result into the console, or the user may type the letters 'q' or 'Q' to quit the application.
+Output Description
+If the user's answer is correct, print "Correct!" and randomly generate another equation to show to the user. Otherwise print "Try Again" and ask the same equation again. Note that all equations must randomly pick and place the operators, as well as randomly pick the equation's constants (integers) from the given range. You are allowed to repeat constants and operators. You may use either the star '*' or the letter 'x' characters to represent multiplication.
 */
+
 //Test if character is an operator
 bool isOp(std::string token)
 {
@@ -147,10 +153,6 @@ char generateOperators(char ops[])
 
 int main()
 {
-        //Add code for while loop
-        //While user input != quit, continue with loop
-        //If right answer, generate new expression
-        //If wrong answer, print out same expresion
         int low, high;
         //Ask user for range of integers
         std::cout << "Enter two integers representing the inclusive range: "      << std::endl; 
